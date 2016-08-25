@@ -439,7 +439,6 @@ namespace deals.earlymoments.com.Controllers
             }
         }
 
-
         private string EncryptCreditCard(string CCNumber)
         {
             string encryptedCC = "";
@@ -670,7 +669,6 @@ namespace deals.earlymoments.com.Controllers
                 // dSet = null;
             }
         }
-
 
         public static string GetError(string errorcode)
         {
